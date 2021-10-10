@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+</head>
+<body>
+    <h1>Weather Detector</h1>
+    <section>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div>
+                <input type="text" name="city">
+                <button type="submit"></button>
+            </div>  
+        </form>
+        <div>
+            <h3>country code:country code</h3>
+            <h5>cordinate:cordinate</h5>
+            <h5>temp:temp</h5>
+            <h5>pressure:pressure</h5>
+            <h5>humidity:humidity</h5>
+        </div>
+    </section>
+    
+</body>
+</html>
